@@ -9,7 +9,7 @@
 <body>
     <h1>Registro de Compra/Venta</h1>
 
-    
+    <form action="registroCV.html" method="">
     <table class="default">
         <tr>
             <td>Tipo</td>
@@ -24,18 +24,18 @@
         </tr>
         <tr>
             <td>
-                <select>
+                <select required>
                     <option value=""></option>
                 <option value="C">Compra</option>
                 <option value="V">Venta</option>
                 </select>
             </td>
-          <td><label for="date"><input type="date" id="date"></label></td>
-          <td><label for="name"><input type="text" id="name"></label></td>
-          <td><label for="cdad"><input type="number" id="cdad" min="0"></label></td>
+          <td><label for="date"><input type="date" id="date" required></label></td>
+          <td><label for="name"><input type="text" id="name" required></label></td>
+          <td><label for="cdad"><input type="number" id="cdad" min="1" required></label></td>
           <td>0</td>
           <td>1</td>
-          <td>   <select>
+          <td>   <select required>
             <option value=""></option>
         <option value="E">Exento</option>
         <option value="M">Minimo</option>
@@ -46,13 +46,14 @@
           <td><input type="submit"></td>
         </tr>
       </table>
+    </form>
 
       <br>
       <h4>Filtros:</h4>
-      <input type="button"> Compras
-   <input type="button"> Ventas
-   <input type="button"> Más recientes
-   <input type="button"> Más antiguos
+      <input type="checkbox"> Compras
+   <input type="checkbox"> Ventas
+   <input type="radio"  name="history" value="actual"> Más recientes
+   <input type="radio"  name="history" value="antiguo"> Más antiguos
       <br>
 <hr>
       <table class="default">
@@ -94,6 +95,7 @@
           <td>854</td>
         </tr>
       </table>
+    
       <script>alert("Te quedan 5 unidades del Producto 3")</script>
 </body>
 </html>
