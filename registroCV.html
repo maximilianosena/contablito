@@ -15,6 +15,7 @@
           <td>Cantidad</td>
           <td>Costo Unitario</td>
           <td>Subtotal</td>
+          <td>Tipo de Iva</td>
           <td>IVA</td>
           <td>Total</td>
         </tr>
@@ -31,8 +32,56 @@
           <td><label for="cdad"><input type="number" id="cdad" min="0"></label></td>
           <td>0</td>
           <td>1</td>
+          <td>   <select>
+            <option value=""></option>
+        <option value="E">Exento</option>
+        <option value="M">Minimo</option>
+        <option value="B">Básico</option>
+        </select></td>
           <td>2</td>
           <td>3</td>
+          <td><input type="submit"></td>
+        </tr>
+      </table>
+      <br>
+<hr>
+      <table class="default">
+        <tr>
+            <td>Tipo</td>
+          <td>Fecha</td>
+          <td>Producto</td>
+          <td>Cantidad</td>
+          <td>Costo Unitario</td>
+          <td>Subtotal</td>
+          <td>Tipo de IVA</td>
+          <td>IVA</td>
+          <td>Total</td>
+        </tr>
+        <tr>
+            <td>
+               C
+            </td>
+          <td>03/10/2023</td>
+          <td>Producto 1</td>
+          <td>2</td>
+          <td>150</td>
+          <td>300</td>
+          <td>Básico</td>
+          <td>66</td>
+          <td>366</td>
+        </tr>
+        <tr>
+            <td>
+              V
+            </td>
+          <td>01/10/2023</td>
+          <td>Producto 2</td>
+          <td>2</td>
+          <td>350</td>
+          <td>700</td>
+          <td>Básico</td>
+          <td>154</td>
+          <td>854</td>
         </tr>
       </table>
 </body>
