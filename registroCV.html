@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra/Venta</title>
+</head>
+<body>
+    <h1>Registro de Compra/Venta</h1>
+    <table class="default">
+        <tr>
+            <td>Tipo</td>
+          <td>Fecha</td>
+          <td>Producto</td>
+          <td>Cantidad</td>
+          <td>Costo Unitario</td>
+          <td>Subtotal</td>
+          <td>IVA</td>
+          <td>Total</td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value=""></option>
+                <option value="C">Compra</option>
+                <option value="V">Venta</option>
+                </select>
+            </td>
+          <td><label for="date"><input type="date" id="date"></label></td>
+          <td><label for="name"><input type="text" id="name"></label></td>
+          <td><label for="cdad"><input type="number" id="cdad" min="0"></label></td>
+          <td>0</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </table>
+</body>
+</html>

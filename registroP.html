@@ -6,11 +6,23 @@
     <title>Registro Productos</title>
 </head>
 <body>
-    <table>
-        <th>
-            <td>1</td>
-            <td>2</td>
-        </th>
-    </table>
+    <h1>Registro de Producto</h1>
+    <table class="default">
+        <tr>
+          <td>ID</td>
+          <td>Nombre</td>
+          <td>Descripción</td>
+          <td>Cantidad</td>
+          <td>Costo</td>
+        </tr>
+        <tr>
+          <td><label for="ID"><input type="text" id="ID"></label></td>
+          <td><label for="name"><input type="text" id="name"></label></td>
+          <td><label for="description"><input type="text" id="description"></label></td>
+          <td><label for="cdad"><input type="number" id="cdad" min="0"></label></td>
+          <td><label for="cost"><input type="number" id="cost" min="0"></label></td>
+        </tr>
+      </table>
+      <button type="submit">Enviar</button>
 </body>
 </html>
