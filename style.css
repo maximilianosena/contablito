@@ -68,3 +68,7 @@ a:hover {
         0 0 50px #008cff,
         0 0 100px #008cff;
 }
+
+#low {
+    background-color: rgb(235, 51, 51);
+}
