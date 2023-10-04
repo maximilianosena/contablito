@@ -9,6 +9,8 @@
 <body>
   <div class="table">
     <h1>Registro de Compra/Venta</h1>
+
+    <form action="registroCV.html" method="">
     <table class="default">
         <tr>
             <td>Tipo</td>
@@ -17,26 +19,35 @@
           <td>Cantidad</td>
           <td>Costo Unitario</td>
           <td>Subtotal</td>
+          <td>Tipo de Iva</td>
           <td>IVA</td>
           <td>Total</td>
         </tr>
         <tr>
             <td>
-                <select>
+                <select required>
                     <option value=""></option>
                 <option value="C">Compra</option>
                 <option value="V">Venta</option>
+                <option value="DC">Devolución Compra</option>
+                <option value="DV">Devolución Venta</option>
                 </select>
             </td>
-          <td><label for="date"><input type="date" id="date"></label></td>
-          <td><label for="name"><input type="text" id="name"></label></td>
-          <td><label for="cdad"><input type="number" id="cdad" min="0"></label></td>
+          <td><label for="date"><input type="date" id="date" required></label></td>
+          <td><label for="name"><input type="text" id="name" required></label></td>
+          <td><label for="cdad"><input type="number" id="cdad" required></label></td>
           <td>0</td>
           <td>1</td>
+          <td>   <select required>
+            <option value=""></option>
+        <option value="E">Exento</option>
+        <option value="M">Minimo</option>
+        <option value="B">Básico</option>
+        </select></td>
           <td>2</td>
           <td>3</td>
+          <td><input type="submit"></td>
         </tr>
       </table>
-  </div>
 </body>
 </html>
