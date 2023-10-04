@@ -28,11 +28,13 @@
                     <option value=""></option>
                 <option value="C">Compra</option>
                 <option value="V">Venta</option>
+                <option value="DC">Devolución Compra</option>
+                <option value="DV">Devolución Venta</option>
                 </select>
             </td>
           <td><label for="date"><input type="date" id="date" required></label></td>
           <td><label for="name"><input type="text" id="name" required></label></td>
-          <td><label for="cdad"><input type="number" id="cdad" min="1" required></label></td>
+          <td><label for="cdad"><input type="number" id="cdad" required></label></td>
           <td>0</td>
           <td>1</td>
           <td>   <select required>
@@ -73,7 +75,7 @@
                C
             </td>
           <td>03/10/2023</td>
-          <td>Producto 1</td>
+          <td>Producto A</td>
           <td>2</td>
           <td>150</td>
           <td>300</td>
@@ -85,8 +87,8 @@
             <td>
               V
             </td>
-          <td>01/10/2023</td>
-          <td>Producto 2</td>
+          <td>04/10/2023</td>
+          <td>Producto B</td>
           <td>2</td>
           <td>350</td>
           <td>700</td>
@@ -94,8 +96,21 @@
           <td>154</td>
           <td>854</td>
         </tr>
+        <tr>
+          <td>
+             DC
+          </td>
+        <td>05/10/2023</td>
+        <td>Producto A</td>
+        <td>1</td>
+        <td>-150</td>
+        <td>-150</td>
+        <td>Básico</td>
+        <td>-33</td>
+        <td>-183</td>
+      </tr>
       </table>
     
-      <script>alert("Te quedan 5 unidades del Producto 3")</script>
+      <script>alert("Te quedan 5 unidades del Producto C")</script>
 </body>
 </html>
