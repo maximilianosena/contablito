@@ -131,3 +131,36 @@ button[type="submit"] {
   margin-top: 10px;
 margin-top: 20px;
 }
+
+.container2 {
+    display: grid;
+grid-template-columns: repeat(9, 1fr);
+  }
+
+  .cont3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media only screen and (max-width: 576px){
+    body {
+        margin: 13%;
+        font-size: 33%;
+    }
+
+    input, select {
+        height: 10%;
+    }
+   }
+
+   @media only screen and (max-width: 768px){
+    body {
+        margin: 13%;
+        font-size: 33%;
+    }
+
+    input, select {
+        height: 10%;
+    }
+   }
+
