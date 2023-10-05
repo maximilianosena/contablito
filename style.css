@@ -151,6 +151,15 @@ grid-template-columns: repeat(9, 1fr);
     input, select {
         height: 10%;
     }
+
+    #search {
+        width: 25%;
+        height: 10px;
+    }
+
+    #search::placeholder {
+        font-size: 5px;
+    }
    }
 
    @media only screen and (max-width: 768px){
@@ -161,6 +170,15 @@ grid-template-columns: repeat(9, 1fr);
 
     input, select {
         height: 10%;
+    }
+
+    #search {
+        width: 25%;
+        height: 10px;
+    }
+
+    #search::placeholder {
+        font-size: 5px;
     }
    }
 
