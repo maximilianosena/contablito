@@ -1,70 +1,133 @@
+body {
+  font-family: 'Radio Canada', sans-serif;
+}
+
 html,
 body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    background: linear-gradient(to bottom, #3494E6, #0e4d85);
+  background: linear-gradient(to bottom, #3494E6, #0e4d85);
 }
 
 .titulo {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    width: fit-content;
-    color: aliceblue;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin-top: 85px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: fit-content;
+  color: aliceblue;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 85px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 50px;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+  text-align: center;
 }
 
 li {
-    display: inline-block;
-    margin: 5px;
+  display: inline-block;
+  margin: 5px;
 }
 
 a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 15px;
-    transition: background-color 0.3s;
-    display: block;
-    width: fit-content;
-    color: aliceblue;
-    margin-left: 15px;
-    margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  transition: background-color 0.3s;
+  display: block;
+  width: fit-content;
+  color: aliceblue;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 a:hover {
-    background-color: #dddddd86;
-    color: #ffffff;
-    background: #008cff;
-    border: 1px solid #008cff;
-    text-shadow: 0 0 5px #ffffff,
-        0 0 10px #ffffff,
-        0 0 20px #ffffff;
-    box-shadow: 0 0 5px #008cff,
-        0 0 20px #ffffff,
-        0 0 50px #008cff,
-        0 0 100px #008cff;
+  background-color: #dddddd86;
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff,
+    0 0 20px #ffffff,
+    0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+h1 {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: fit-content;
+  color: aliceblue;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+table.default {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+  border: 3px solid #ccc;
+  border-radius: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.default td,
+table.default th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+table.default tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table.default input[type="text"],
+table.default input[type="number"],
+table.default select,
+table.default input[type="date"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #3494E6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+margin-top: 20px;
 }
