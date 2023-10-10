@@ -67,47 +67,221 @@
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </div>
-<br>
+      <br>
+      <hr>
+
+      <div id="filters">
+
+        <div class="radio-buttons-container">
+          <div class="radio-button">
+            <input name="radio-group" id="radio2" class="radio-button__input" type="radio">
+            <label for="radio2" class="radio-button__label">
+              <span class="radio-button__custom"></span>
+
+              Más recientes
+            </label>
+          </div>
+          <div class="radio-button">
+            <input name="radio-group" id="radio1" class="radio-button__input" type="radio">
+            <label for="radio1" class="radio-button__label">
+              <span class="radio-button__custom"></span>
+              Más antiguos
+            </label>
+          </div>
+        </div>
+
+        <div class="oculto">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Filtre por Tipo</option>
+            <option value="1">Compras</option>
+            <option value="2">Ventas</option>
+            <option value="3">Devolución C.</option>
+            <option value="3">Devolución V.</option>
+          </select>
+        </div>
+
+        <div class="checkbox-container">
+          <label class="cl-checkbox">
+            <input checked="" type="checkbox">
+            <span>Compras</span>
+          </label>
+
+          <label class="cl-checkbox">
+            <input checked="" type="checkbox">
+            <span>Ventas</span>
+          </label>
+
+          <label class="cl-checkbox">
+            <input checked="" type="checkbox">
+            <span>Devolución Compras</span>
+          </label>
+
+          <label class="cl-checkbox">
+            <input checked="" type="checkbox">
+            <span>Devolución Ventas</span>
+          </label>
+        </div>
+      </div>
+      <br>
       <hr>
 
       <div class="container2">
-          <div class="cont3">
-            Tipo
-            <span> C</span>
-          </div>
-          <div class="cont3">
-            Fecha
-            <span> 03/10/2023 </span>
-          </div>
-          <div class="cont3">
-            Producto
-            <span> Producto B</span>
-          </div>
-          <div class="cont3">
-            <label for="cdad">Cantidad</label>
-            <span> 2 </span>
-          </div>
-          <div class="cont3">
-            <label for="cost">Costo</label>
-            <span> $150 </span>
-          </div>
-          <div class="cont3">
-            Subtotal
-            <span> $300 </span>
-          </div>
-          <div class="cont3">
-            Tipo de Iva
-            <span>Básico</span>
-          </div>
-          <div class="cont3">
-            IVA
-            <span> $66 </span>
-          </div>
-          <div class="cont3">
-            Total
-            <span> $366</span>
-          </div>
+        <div class="title">
+          Tipo
+          <p class="oculto"> <br> V</p>
+          
+          <p class="oculto"> <br> DV</p>
+        </div>
+
+
+        <div class="title">
+          Fecha
+          <p class="oculto"> <br>  05/10/2023</p>
+          <p class="oculto"> <br>  06/10/2023</p> 
+        </div>
+        <div class="title">
+          Producto
+          <p class="oculto"> <br>Producto A</p>
+          <p class="oculto"> <br>Producto A</p>
+        </div>
+        <div class="title">
+          <label for="cdad">Cantidad</label>
+          <p class="oculto"> <br> 4</p>
+          <p class="oculto"> <br> -2</p>
+        </div>
+        <div class="title">
+          <label for="cost">Costo</label>
+          <p class="oculto"> <br> $200</p>
+          <p class="oculto"> <br> $200</p>
+        </div>
+        <div class="title">
+          Subtotal
+          <p class="oculto"><br> $800 </p>
+          <p class="oculto"><br> -$400 </p>
+        </div>
+        <div class="title">
+          Tipo de Iva
+          <p class="oculto"> <br> Básico</p>
+          <p class="oculto"> <br> Básico</p>
+        </div>
+        <div class="title">
+          IVA
+          <p class="oculto"> <br> $176</p>
+          <p class="oculto"> <br> -$88</p>
+        </div>
+        <div class="title">
+          Total
+          <p class="oculto"><br> $976</p>
+          <p class="oculto"> <br> -$488</p>
+        </div>
+
+        <div class="info">
+          <span> V</span>
+        </div>
+        <div class="info">
+
+          <span> 05/10/2023 </span>
+        </div>
+        <div class="info">
+
+          <span> Producto A</span>
+        </div>
+        <div class="info">
+
+          <span> 4 </span>
+        </div>
+        <div class="info">
+          <span> $200 </span>
+        </div>
+        <div class="info">
+
+          <span> $800 </span>
+        </div>
+        <div class="info">
+
+          <span>Básico</span>
+        </div>
+        <div class="info">
+
+          <span> $176 </span>
+        </div>
+        <div class="info">
+
+          <span> $976</span>
+        </div>
+
+        <div class="info">
+          <span> DV</span>
+        </div>
+        <div class="info">
+
+          <span> 06/10/2023 </span>
+        </div>
+        <div class="info">
+
+          <span> Producto A</span>
+        </div>
+        <div class="info">
+
+          <span> -2 </span>
+        </div>
+        <div class="info">
+          <span> -$200 </span>
+        </div>
+        <div class="info">
+
+          <span> -$400 </span>
+        </div>
+        <div class="info">
+
+          <span>Básico</span>
+        </div>
+        <div class="info">
+
+          <span> -$88 </span>
+        </div>
+        <div class="info">
+
+          <span> -$488</span>
+        </div>
+
+        <div class="info">
+          <span> C</span>
+        </div>
+        <div class="info">
+
+          <span> 07/10/2023 </span>
+        </div>
+        <div class="info">
+
+          <span> Producto C</span>
+        </div>
+        <div class="info">
+
+          <span> 3 </span>
+        </div>
+        <div class="info">
+          <span> $500 </span>
+        </div>
+        <div class="info">
+
+          <span> $1500 </span>
+        </div>
+        <div class="info">
+
+          <span>Básico</span>
+        </div>
+        <div class="info">
+
+          <span> $330 </span>
+        </div>
+        <div class="info">
+
+          <span> $1830</span>
+        </div>
+      </div>
 </body>
 
-<script> alert ("Error: Solo tienes 3 productos B")</script>
+<script> alert("Error: Solo tienes 3 productos B")</script>
+
 </html>
